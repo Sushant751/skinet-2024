@@ -1,6 +1,7 @@
-namespace Core.Entity;
-
-public class BaseEntity
+namespace Core.Entities
 {
-    public int Id { get; set; }
+    public class BaseEntity
+    {
+        public int Id { get; set; }
+    }
 }
